@@ -57,6 +57,13 @@ section.title--section {
   padding: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .column--half {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
 img.image-of-the-day {
   width: 100%;
 }
