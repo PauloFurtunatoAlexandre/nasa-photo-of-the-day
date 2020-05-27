@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* My Styles */
+
+section.title--section {
+  width: 100%;
+  margin: 24px;
+}
+
+.main--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.column--half {
+  width: 45%;
+  padding: 20px;
+}
+
+img.image-of-the-day {
+  width: 100%;
+}
+
+p {
+  text-align: left;
+}
+
+h2.header--title {
+  text-align: left;
+  margin: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #39719E;
+  color: #fff;
+}
+
+p.nasa--subtitle {
+  margin: 35px;
+}
+
+.nasa--footer {
+  background-color: #39719E;
+  padding: 40px;
+  color: #fff;
+}
