@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -85,4 +85,17 @@ p.nasa--subtitle {
   background-color: #39719E;
   padding: 40px;
   color: #fff;
+}
+
+h2.nasa--title {
+  text-align: center;
+}
+
+span.optional-info {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
 }
