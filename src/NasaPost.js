@@ -20,6 +20,10 @@ const Header = styled.h2`
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 `;
 
 const Span = styled.span`
@@ -27,6 +31,10 @@ const Span = styled.span`
     font-weight: 300;
     font-size: 0.8rem;
     margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+        font-size: 0.6rem;
+    }
 `;
 
 const Paragraph = styled.div`
@@ -34,6 +42,10 @@ const Paragraph = styled.div`
     font-weight: 400;
     font-size: 1rem;
     margin-top: 40px;
+
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+    }
 `;
 
 const Animation = keyframes`
@@ -43,7 +55,7 @@ const Animation = keyframes`
     }
     
     to { 
-        opacity: 0.5;
+        opacity: 1;
         color: #39719E;
     }
 `;
