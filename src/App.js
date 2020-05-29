@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Header from "./Header";
+import MainHeader from "./MainHeader";
 import NasaPost from "./NasaPost";
 import Footer from "./Footer";
 import axios from "axios";
-import "./App.css";
+// import "./App.css";
 
 function App() {
   const [apods, setApod] = useState([]);
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <MainHeader />
       <NasaPost apods={apods} />
       <Footer />
     </div>
