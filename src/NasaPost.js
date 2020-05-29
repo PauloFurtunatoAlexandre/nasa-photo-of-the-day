@@ -36,7 +36,7 @@ const Paragraph = styled.div`
     margin-top: 40px;
 `;
 
-const opacity = keyframes`
+const Animation = keyframes`
     from {
         opacity: 0;
         color: #39719E;
@@ -51,7 +51,7 @@ const opacity = keyframes`
 const Loading = styled.h3`
     margin: 60px auto;
     text-align: center;
-    animation: ${opacity} 0.2s easy-in infinite;
+    animation: ${Animation} 0.2s easy-in infinite;
 `;
 
 const NasaPost = (props) => {
